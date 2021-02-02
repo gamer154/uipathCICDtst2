@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://aatest154.invoicely.com/login" ContentHash="moTLjfChZ0CYEClFIxRLTg" DesignTimeRectangle="906, 456, 125, 42" ElementType="Button" FriendlyName="'Log in'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' aaname='Log in' check:text='Log in' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log In - invoicely' /&gt;" SearchSteps="Selector" Text="Log in" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='submit' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0Fl08huorfkOI4Z_D6sxqxA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="1ab2be37eb200dd102e82973d498c622.png" xmlns="">0J7CA1sED5UC8Irxg1BXX9Q</imageRef>
+</TargetAnchorable>

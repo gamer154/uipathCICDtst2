@@ -1,0 +1,14 @@
+﻿{
+  "Id": "UKd61jeWLEmPUyZ0nfOfkA",
+  "Reference": "xzdO-TnjEUmT1sMDZXbXoA/UKd61jeWLEmPUyZ0nfOfkA",
+  "Name": "Invoicely",
+  "Type": "App",
+  "Created": "2021-02-02T20:28:36.8269263Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-02T20:31:00.5848438Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

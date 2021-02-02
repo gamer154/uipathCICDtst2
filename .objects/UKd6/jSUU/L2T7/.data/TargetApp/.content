@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp BrowserType="Chrome" ContentHash="pfjTN8No5kKoifcWp01sxg" Selector="&lt;html app='chrome.exe' title='Dashboard - aatest123'/&gt;" Url="https://aatest154.invoicely.com/dashboard" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">00q2pMAv010yQX6RrhnIqyg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="d7b0af52ebac49887a9a1f2b1d41b493.png" xmlns="">0osjbL-25BEaeeE1sH-N5Ng</imageRef>
+</TargetApp>

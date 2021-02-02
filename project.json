@@ -1,0 +1,71 @@
+{
+  "name": "CICDtest2",
+  "description": "CICDtest2",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.5]",
+    "UiPath.Mail.Activities": "[1.9.5]",
+    "UiPath.System.Activities": "[20.10.3]",
+    "UiPath.Testing.Activities": "[1.2.4]",
+    "UiPath.UIAutomation.Activities": "[20.10.8]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fd88de48-ebc9-4e04-a27c-ea23ef7dc7aa",
+        "fileName": "Invoicely\\Tests\\invoicely_LoginTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "031fd369-d4b7-4dc3-b096-8250c8bc3207",
+        "fileName": "Invoicely\\Tests\\invoicely_LogoutTestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ee616738-4278-4545-8b53-343f59f204dd",
+        "fileName": "MainTestCase.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "89963139-1753-40e5-8632-e63d14c20718",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}

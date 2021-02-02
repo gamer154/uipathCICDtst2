@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp BrowserType="Chrome" ContentHash="QoYNL3ZUi0uMvYcMa-8AIQ" Selector="&lt;html app='chrome.exe' title='Log In - invoicely'/&gt;" Url="https://aatest154.invoicely.com/login" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0OH2ZTnrmvky5RAQgc2iqUw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="c0e2039c1ee5c61ba57cf88a09daf5aa.png" xmlns="">0MlWCkV3iNUiavRqe-sUDpQ</imageRef>
+</TargetApp>

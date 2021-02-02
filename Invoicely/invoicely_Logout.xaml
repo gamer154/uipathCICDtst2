@@ -1,0 +1,106 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="invoicely_Logout" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1170,978" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="invoicely_Logout" sap:VirtualizedContainerService.HintSize="476,773" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser 'Chrome: Dashboard - aatest123'" sap:VirtualizedContainerService.HintSize="434,681" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" OpenMode="Never" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,465" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'aatest123'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://aatest154.invoicely.com/dashboard" ContentHash="raxOjNCj4k6God8MV2Nh2Q" DesignTimeRectangle="8, 119, 210, 66" FriendlyName="'aatest123'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;nav&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='wrapper' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;nav&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='wrapper' tag='DIV' type='' aaname='                                                                                               ' check:text='aatest123' /&gt;" ImageBase64="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" InformativeScreenshot="bf31f851d8b28a8549c74535272d72a8.png" Reference="xzdO-TnjEUmT1sMDZXbXoA/jWicva9Jjk-LSoTzOCPAaA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard - aatest123' /&gt;" SearchSteps="FuzzySelector, Image" Text="aatest123" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='DIV' type='' /&gt;" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Log Out'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://aatest154.invoicely.com/dashboard" ContentHash="Oeq7BoZbqki_082GGba_Nw" DesignTimeRectangle="8, 408, 210, 47" ElementType="Text" FriendlyName="'Log Out'" FullSelectorArgument="&lt;webctrl aaname='Log Out' parentid='wrapper' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Log Out' parentid='wrapper' tag='A' type='' check:text='Log Out' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANYAAAAzCAYAAADravYfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP8SURBVHhe7drNaxNBGAZw/yOt/bC9qq1ab0K9ePDkQRAFD4InQcSTKH4giGLRkxRFUBBRK4hKpfWkVz3U2mi+25rGj6R9zTPJtJPJ7LY1mc2mPgs/NjvvjEnlfZhkky0jIyOij+npL0TUhGQyKalUWuqCNTk5RURNcAZr5sBBImoCg0XkAYNF5AGDReQBg0XkAYNF5AGDReQBg0XkAYNF5AGDReQBg0XkAYNF5AGDReRBbIKVvXRFyum0OrvqRJ0kPsG6fE3K2aw6u+pEnaStwUocOSqF5+Py+9NnyY/eUcHCGdcYR921jiju2hasudG7Us7PVd7+ZWThwUPJXb2ugoUzrjGOOua51hPFWVuCNX9vTJYKBSlOvJOvhw6rMfutIMaLbydk6UdBzTfXE8Vd5MFKnzsv5VRKFl+9rhsP+oyFeZiPdeb4RuDfXC4W5c/MjLPuw/zYfVkulWr/o9Xj14ePzrlBCi/G1TqcXXWKr8iDtfj6jZRmE/L9+Mm68aBgYR7mY505vhFRBwsBQqgQLj2WOnNW/X2Ax+b8IAxW54o0WN+OnZBSIiGF8ZcNtaBgAeZjHdbbtfVYK1i66fWBuebrsHefpYWFhuDYc127k11TATSeS79OjOtQ6SPK3ZaaF2mwMhcuqpsS+Zu3G2poqqBgYT7WYb1dWw/dsK7m1KEya2bDu9bicVCw1NqAmr1rhQUL19yxOlekwULjBIUn7AvisHXroRvWFSw0rR0EvbOg5qq7xrSw0K3Ua2FisDav2OxYYXzuWK4dxmxwVz0sWK75Gnes/0dsPmOFKTx9JqXZWS+fsVwhwWOMoeaqu8Y0vVaHI6zGYG1ekQYLgu4KBvF9V/BfPmOpekCwgur2brUyzwiWHTx9jWDxi/LOEnmw1PdYmUzD91hBWvk9ln3oJtdNrw+z2UE3uD7C7gpq9hocOjCa/brw2AyW+brMQFL8RR4scP3ywhbnX16EvRUkgrYEC/I3bkk5l1M3JRYePZbkqdNqHGdcYxx1zLPXRgm7BN4GmjsYrrmDUJi2BQv0r9sRICmXq09eOeM6Lr9uR3h+Tr2vvrbawVDRWtoaLKLNisEi8oDBIvKAwSLygMEi8iCZTDFYRK3GYBF5wGAReYBgpdMZBouolRgsIg8YLCIPGCwiD3DjgsEiajEGi8gDBCuTyTJYRK2E3aohWE92DhJRExgsIg8QrGw2Vx+snoFh6ekflu7+fVU79sp26NujdPUNSVfvkGzrHVzVs1vZquxa1U3UAcyerfWyYvQ4eh69r3OATCAbOifIjMrOwH61W60drP5asBzh6jKeWDFfVEU1aDb7DyGKUmNP2n1r9jR63BUqFaxKNoKDlZO/d0tcOkiPIhgAAAAASUVORK5CYII=" InformativeScreenshot="32d5fa98cc8461562a6e1f1466054aba.png" Reference="xzdO-TnjEUmT1sMDZXbXoA/eg-a5TcWlEOjpeR8EvS7Ew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard - aatest123' /&gt;" SearchSteps="FuzzySelector, Image" Text="Log Out" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp BrowserType="Chrome" ContentHash="pfjTN8No5kKoifcWp01sxg" IconBase64="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" InformativeScreenshot="d7b0af52ebac49887a9a1f2b1d41b493.png" Reference="xzdO-TnjEUmT1sMDZXbXoA/L2T7SfX3WE2oulaoNOsgJw" Selector="&lt;html app='chrome.exe' title='Dashboard - aatest123'/&gt;" Url="https://aatest154.invoicely.com/dashboard" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

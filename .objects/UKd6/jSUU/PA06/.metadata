@@ -1,0 +1,12 @@
+﻿{
+  "Id": "PA06QUSVLEywAOk3aHFeAg",
+  "Reference": "xzdO-TnjEUmT1sMDZXbXoA/PA06QUSVLEywAOk3aHFeAg",
+  "ParentRef": "xzdO-TnjEUmT1sMDZXbXoA/jSUUdzLHAUeYG5VIlzliyA",
+  "Name": "Chrome: Log In - invoicely",
+  "Type": "Screen",
+  "Created": "2021-02-02T20:29:16.6346013Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-02T20:29:16.6346013Z"
+}

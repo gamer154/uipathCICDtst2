@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://aatest154.invoicely.com/login" ContentHash="Hz8HLgrwh0-PsSvSCmfp4A" DesignTimeRectangle="804, 393, 328, 42" ElementType="InputBoxPassword" FriendlyName="'INPUT  password'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='Password*' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log In - invoicely' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="804, 366, 225, 27" ElementType="Text" FriendlyName="'Password*'" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' check:text='Password*' /&gt;" SearchSteps="FuzzySelector, Image" Text="Password*" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='LABEL' type='' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">1RZXfoF47akmeXUteWvI3UQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0zuzPV9ohEEWhUMBC2Q89rA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2bb6b82c4398dfedc7aff6f20e5e117c.png" xmlns="">0lh4PweNQ0EyRl61-PWAthw</imageRef>
+</TargetAnchorable>

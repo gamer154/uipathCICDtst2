@@ -1,0 +1,124 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="invoicely_Login" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1170,1305" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="invoicely_Login" sap:VirtualizedContainerService.HintSize="476,1100" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser 'Chrome: Log In - invoicely'" sap:VirtualizedContainerService.HintSize="434,1008" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,792" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Email Address*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,226" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="shoali154@gmail.com">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://aatest154.invoicely.com/login" ContentHash="hSNAUjF-m0Of_WCUUWxE0g" DesignTimeRectangle="804, 310, 328, 42" ElementType="InputBox" FriendlyName="'INPUT  email'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='Email Address*' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAUwAAAAuCAYAAABDJSC6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANVSURBVHhe7Zkxb+owFEbf//8VXVm6wZxKHVnoUiHoWsFCh3b3sx07uXbsl5uWPERzjvQJEcfX15F65JQ/n59fhhBCyHgQJiGEKJMI83Q6m8Phzby+7gkhZNFxLnROlI7shOkGSpMIIWTJkdLshBlPlpfLhwEAWDrOhc6Jzo0DYUabAgBAS/QiwgQAGAFhAgAoQZgAAEoQJgCAEoQJAKAEYQIAKEGYAABKECYAgBKECQCgBGECAChBmAAAShAmAICS3yfM84tZPTZmHVvfb83D49bswtero6nve3o2T+fwHQDuklmF+b59tjJpsswsjp8IM8xdbSc0iDABFsP8wty8mPfw/SZMEOausbLcTOwZYQIsBoTZcTRrLzX3KU6oYyBMgMVwU2G6E91Dc2w/wyt7+zp8Nk+b/FpP/qqfjOdy0grT3Rd69fVtXyVkr75uoX7an+1lX+nJf9p7xDNK62eSDf8y6Mar8yYIHwDU3F6Y8o87CmRwTYrDngClzIJEuvu/JcxW0J14KydC36/cTyewvn4rS7lee2JN9hD3mUnZ15fXkr3nJ1/bcyMEL/uy8xAmwPWZX5heFiL5qSiRRjhZFq7Vf4gZkZ1GmANBFtasSDStX3mdL/aU1fL35H2KPmrrW4bPEQDmYH5hjp0wR+VYuhZPbX1+IkzfZyac0qmtuBdZvyg9i6Ynfy3dU0zcm39e7louR1/fjZWFCgDX4e6EGU+tyaupnDNZmEP5ynTr/A9h/uNZ9bT79f3l4vR13RjiBJiDOxPm2Lj7OlGY1fEgptifv28oolbgUpiFV/J8bmnNvO8xRvpOnxEAXIM7E+ZwTjxxfleYwx4EydwgULmfIEhZ39dL1qv96JP3VKhv2TXhPrvWWj4XUaO7x4MwAeZifmF6WaSpya/8x55fS1+hV9tjOj5FmEF49V+U27X6tYPU4vpOboX6rTRj7Ji6p6y+TbovOdbPT9eT/QLANZlVmAAAvwmECQCgBGECAChBmAAAShAmAIAShAkAoARhAgAoQZgAAEoQJgCAEoQJAKAEYQIAKKkK83B48wOXy0e4FQBguTgXOic6Nw6EeTqdO5sSQghp49w4EGaUZjxpEkLIkuNcKGXpkgiTEEJIPQiTEEJU+TJ/AaNRGLT1I/KKAAAAAElFTkSuQmCC" InformativeScreenshot="b35db23a9adb25218c824f8a547038ed.png" Reference="xzdO-TnjEUmT1sMDZXbXoA/Xpx4TxfCbUOL4f6AQNWNpg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log In - invoicely' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="804, 284, 328, 27" ElementType="Text" FriendlyName="'Email Address*'" FullSelectorArgument="&lt;webctrl aaname='Email Address' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Email Address' tag='LABEL' type='' check:text='Email Address*' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAUwAAAAfCAYAAACMA/SyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAU3SURBVHhe7dnRSxtJHAfw+zv65KsgWAhUKdRDKNKzIjQPBzkQhYMIh3pgr/QIIsEHfdDDSjiwIhhOWC4P8V7CPSQUlCCLiEWKIZj0UhS6l1yjEez792ZmZ9dEo1nFUsVv4APZ2ZnNTB6+zG/2m+PjzyAiosYYmEREHjEwiYg8YmASEXnEwCQi8oiBSUTkEQOTiMgjBiYRkUdVgbkHo68F95pqDSzv1Qy4FpUc4sN+jCzuqOvCclD8VhBGvk7fKuVkGK1yXn0GCnXun5YOyzVMIl3nnpI3MPCl1ujZJv7teI7Sfr17RHSTnA3Mp5OIJ1eR0jZ2D2oGXIuyienOFnRPmSiLa2+BeYDUyxb4g0PwNwWwlKnXp9bNDswSShODsKJ/wOr7FcW/XsH6+U/1f9TvT0Rf29nA9Lh7u06eAnN/BSNNXZjb3MHSUxGcr+3d6UVu+g7z8ON7fIqN42NHhwjOTZQ/lFA5qt+XiL4+z4HphE/CXMBgm098b8dAZAvl0hbm+79VpfKD3jASu86YItKRUQRUXzH2fgBj8Zy+J3aYsi1sqmsvgWnFhnDvYQQb4vvGbJf7/aTPAbaXwwjcl/NsR+BlAsa4PWc3MD+sYk7PtbUtiPnYQk1gOvNQ7fI5en7WmwhGOtvVOh50DmHePNl1Z2PiN/UaW9vEzvftxe01jt6j9Mt3sCZEaP7wCv99qtOHiG6MhmeY02v2fTswffCPr2A7s4N4qEdcd6H7iQiQtRyyyUkEZDiEVnVZaWL+eRTpTBFWfgtL/TI8nFC8bGDmsNTbgsczW/b1ZgSP5W7TPOljxUdFEPoQmEpiO59DejGEbrUGHZiVLcx1iuvOEJbEfAvvkph+ZgdabWCKNfQbyFbs55bXJsVzfBh8vYXCfg4Jue7mUSTkmaOahxj/u7y3h43lkPgvLmjXc3Uc5eJ2GX4ky/NhFHcOz/Qhopuj4Rnmtn4ZYQfmEOLOy4l3UfhFKJyUxnuI94s+55X0InhOAviSgZmJijD2ueGtwu+hCDY93v3t3iiy7jj7zNMNzPXfVKBOJKvOZPUaagNTlv3OM/RzgyuwnDFWAi/EmEFDjKkKRqus78ugPa/deQYR3UqXLsnd8rbO+Z/q44yvFLEtStuxH/3wP7HL4KsGpirB9fgazWGkVCCJ5zWLazdAbdVzLhh1fuPUGs7OQ8+zDnvM6WOAFb0zPa+diG6zLxaY2cWA6B/EnCh/rf0iym+uuMN0dpPDUXfXq7yWJXgLxv6WO8YcjO9Pz72IeLBqzur3q3apkql3gucGpt5hDq+I0rqo1uFydo5S5QCFRFgdAQQWnXPaC9qJ6FZqWJKn1nPqTPKygbkxZZ9Zzpt7sDIm5tUZ5hUCU4XaqVJaquhd5U8JVS7bAe3D4OyqOmNNzYbQLYLWnXN5FROyf2cYhplD1jQw8ayrQWCKNrEzbW3qwYtFE1kZlGItxnjUfuG0voCJ2I4K04Jpv0BSwXheu34mEd1ODV/6OAF42cA83k1grFe/We6dRCp2lR3mAVIhEbRu6V0rHZYhrM9VK3tIzwTxSIaifCO/vIPEqTmX3xp6Tj486o8gvd6oJJd0ee2+7e/BSDhprzFjuG/PVfvMKixZep/X7j6TiG6jqsAkIqKLMDCJiDxiYBIRecTAJCLyiIFJROQRA5OIyCMGJhGRRwxMIiKPGJhERB4xMImIPKoJzGKxhHz+H2Szu0REd5rMQpmJ1RnpBqa8UW8QEdFdVh2abmA6O8vDwwr44Ycffu76R2ahzESZjXZOfsb/EZVbURYw6jYAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" Text="Email Address*" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='LABEL' type='' /&gt;" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Password*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,226" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="Nimsoft123">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://aatest154.invoicely.com/login" ContentHash="Hz8HLgrwh0-PsSvSCmfp4A" DesignTimeRectangle="804, 393, 328, 42" ElementType="InputBoxPassword" FriendlyName="'INPUT  password'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='Password*' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAUwAAAAuCAYAAABDJSC6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL5SURBVHhe7dm9TiMxFEDhff+n2JaGLtRBopwmNAgF2ihpQgG919fXnrn+CXilTaJ1ziddiYwnM1MdPPDr8/PLMQzDMD8PwWQYhumcLJj7/cFtt+/u5eWVYRjmpkdaKE20jZyDKQutLzEMw9zy2GjOwUw7y+PxwwHArZMWShOljVUwU00BACp1kWACwA8IJgB0IpgA0IlgAkAnggkAnQgmAHQimADQiWACQCeCCQCdCCYAdCKYANCJYP5rr5P7fT+5TfwIYBxnDeZuevLxWOfz8Ox2cX1IBBMY1vmDmQXy4B4fBo8mwQSGdeFgeodnd3f/5B4P8fNoCCYwrMsH0725lX81X8VLb9b5K3s6ruKOdF43oQ3hNWvhPnr+3WRrrPfLjoXvmqiFyJXXMlIE03lmPX/+dA7BBEZ0+WDaHab/eWVDFmKzRDHEaP2mH7zdNMW1PLohrGu9T3XPRuTsOeHnYserEWwE1TyLCOfZe80RJ5jAiC4cTA1dGZ6FDWFrtxjZ6JaK3aNE7W491cfCdcvwJsXxIuTBqWdghwkM6/zBDDuuZaoAzruyZfJQybE6QLoL9FPFt4yuRE3jq8dkPYauiKu1RNVrRVCOZb8MIoIJDOv8wWxFJdLo2V1ae8e3hLcMkYawDGe4rnyWINpXbzlmQ0cwAfyFKwazFcd2MNU3a2WkYsw2/v5z9GI8s2Mnr1kcPxXMxiu5xp1gAiO6YjDrv1Gm12wNlV+P/8hRJmI+fvU/i2yk9NzW7nW5vtLA5eELz2GfuxXMtLu154Udq9yDYAIjumIwvTkwKWR2Z2det+f18K3qe61AVdHzNMj1uRpNc73y76LNYIriGeV+J88F8L87azABYCQEEwA6EUwA6EQwAaATwQSATgQTADoRTADoRDABoBPBBIBOBBMAOhFMAOhEMAGg08lgbrfvYeF4/IinAsDtkhZKE6WNVTD3+8NcU4ZhGEZH2lgFM0Uz7TQZhmFueaSFNpYyWTAZhmGY00MwGYZhuubL/QGPZn6ypuUaFQAAAABJRU5ErkJggg==" InformativeScreenshot="2bb6b82c4398dfedc7aff6f20e5e117c.png" Reference="xzdO-TnjEUmT1sMDZXbXoA/kaqwr1YubEyMPMBjIZ5bQg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log In - invoicely' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="804, 366, 225, 27" ElementType="Text" FriendlyName="'Password*'" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' check:text='Password*' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOUAAAAfCAYAAAAYwAppAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARFSURBVHhe7ZnfS5tXGMf3d3jVW0FQCLRScEMQGVUK5mKQgVgQslFoLnSlo8gIgTqY62qQ0ihCBOFlXsTehBYiYkQkBFE6UYKmyzDQd8mWKKj33z3n/RHf1CRdL2qP8L34oO855znnvPB+fJ5z/OLs7ByEEH2glIRoBqUkRDMoJSGaQSkJ0QxKSYhmUEpCNINSEqIZHimPYAx3oO2Giw89Q2OIrR7VBVxb8gbuyXvdW2z+PpWX43j3YqthHyFXwtbrBlIOTCKRSmMltYxooFvkHER0yxN0XWkh5enOPMwfplF+8SPM335HKfwdzLXjS+MI+eQ0lHLYQMFtq6QwIR9y37Pti6DrSispq2VUc2v4+/sv8W74F5R33uL43/oxhFwJH5TyJI1ITcoSNmbGELjls8vbrgAmEodO7DlyS+FaX+etAOI7zdsrr8Ly7Ed811nHTOKh6g9nnPmOkBjxPP+VRuxBAD3tblkdhrFTdcZmMKX285OB5LgfnTeCMPJ2THTkK3lW6wYRW5prWb4eZ6dhfvsE5lgfzJdvcdpgDCGfnJZSnpSQnQ3KR92PaEb1ZxAbX8DGfglmfhvxESWaI8DWDPrUB/98G4XiEbKLjxFbb9HuSOgKYksqa9+eQVat7WToiVciXlmk6xWxhp4ikTlEYTeFqSFZuz2IhFrblVLK7KnVkv0uJ9uISkxb72PE1z0xnjXrKeOfabtkPf1DStkna6heGkPIFdBQSusDd+lGaH4PFW+Qy/qkNWbqPfnMitN/0qJdsm4iKPM/Sllzb4R9CD2fE1EdyTefyh+DMSTNcxSMoKwjGXbfiVcUlxGSef2ze/LsSHk/CdPtt+J9iKTcbCrsLsCv9tIkUxKiBS0veiQr1URSSOZ8IyXgxKgf/q/tsrAm5VkVbxalTO2yRQ48WkbOkq9Zu8i2KLK1T2JDZbXbSsZDGN904GGihNysvyZZ9meV4WScuw8LR0SrvPX+7sxtiewI7sb8j9tXQj47HzxTesjNB6wPPSrloFksobLqyZTuuJMqCskw7kh7YP7ivNmw3cpcUhovys+BBeSkLfusX86RSSTuX8jTKlPaYy5LeWbtzVe/t4yTtSkl0ZmPkdLOWEHEMkcw9+V8aZ0pHSk35xBZ2pNzYwmFjH2hYsnXrN2acw/xgQ7c7Oq+uN2VkrhzQDKxV8KinD/bvWfKtL12u5S3RTWmgZSVNCLqUqg3DENichkDkaF+Skn052OkPDtIYuKu+r+liHR3EitLnky5byDUa/e1dQ0i9GsapipTm7U7c6rM2Fa7SBKcC542J3PW1s6nER0dxE3VJ2XwndEZrNRK0wZSCpUdw9mvDz0jM9jYZPlKrgH1UhJCdIBSEqIZlJIQzaCUhGgGpSREMyglIZpBKQnRDEpJiGZQSkI0g1ISohmUkhDNqJOyVCojn/8TudwBIeQzUZNSCdloACHkKjnAfzDZUz/cS/gkAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" Text="Password*" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='LABEL' type='' /&gt;" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Log in'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://aatest154.invoicely.com/login" ContentHash="moTLjfChZ0CYEClFIxRLTg" DesignTimeRectangle="906, 456, 125, 42" ElementType="Button" FriendlyName="'Log in'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' aaname='Log in' check:text='Log in' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIEAAAAuCAYAAAAP6nprAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGFSURBVHhe7ZwxTgMxEEW5EzfhEJyCO3AMpFT01Gk4wVa06Uki0aBhZrFXE2eAoIAUe95IT8mu15viv511Gl9ttzuB3CABHErw9vQg73c3IrfXMCiWr+Xsc18ksIFoEoyJF2GRgA6QC8v7SILoQhgbJAAkACQABQkACQAJQEECQAJAAlCQAJAAkACUziW4F9mLyDoa+wc2+lubx3isY5AAMkigT66vSef4cXu6a03Pn59f3c93Avter6/VqYyDS1AEWIJvjqdXPXgpY0oV4lQJROevylh7r44YWwILZq9Pqz+31qDmsIK5q192Ar8+mOc6KTpibAnaoIw5LJPAukIbmp3TQoL4wssECf6CsSXgdXASY0vQLgTb43MXhkhwCRQJolqCLMHX+vEv4jdBIkEGTJg+gzyHxBKULuI7Q7SGSEBiCZS6EKyVUAAjtwQwgwSABIAEoCABIAEgAShIAEgASADKkQRsXJWLcOMqtrDLRbiFXRWBjjA2lq8XwDiQAHKCBOnZyQdn5i3ymEIszwAAAABJRU5ErkJggg==" InformativeScreenshot="1ab2be37eb200dd102e82973d498c622.png" Reference="xzdO-TnjEUmT1sMDZXbXoA/uJZ0Cs-uHEmlqYeiV4CE1A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Log In - invoicely' /&gt;" SearchSteps="Selector" Text="Log in" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='submit' /&gt;" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp BrowserType="Chrome" ContentHash="QoYNL3ZUi0uMvYcMa-8AIQ" IconBase64="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" InformativeScreenshot="c0e2039c1ee5c61ba57cf88a09daf5aa.png" Reference="xzdO-TnjEUmT1sMDZXbXoA/PA06QUSVLEywAOk3aHFeAg" Selector="&lt;html app='chrome.exe' title='Log In - invoicely'/&gt;" Url="https://aatest154.invoicely.com/login" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

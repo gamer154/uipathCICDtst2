@@ -1,0 +1,15 @@
+﻿{
+  "Id": "L2T7SfX3WE2oulaoNOsgJw",
+  "Reference": "xzdO-TnjEUmT1sMDZXbXoA/L2T7SfX3WE2oulaoNOsgJw",
+  "ParentRef": "xzdO-TnjEUmT1sMDZXbXoA/jSUUdzLHAUeYG5VIlzliyA",
+  "Name": "Chrome: Dashboard - aatest123",
+  "Type": "Screen",
+  "Created": "2021-02-02T20:29:59.0888701Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-02T21:05:22.1484696Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

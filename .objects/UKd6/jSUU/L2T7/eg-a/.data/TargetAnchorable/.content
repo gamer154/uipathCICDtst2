@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://aatest154.invoicely.com/dashboard" ContentHash="Oeq7BoZbqki_082GGba_Nw" DesignTimeRectangle="8, 408, 210, 47" ElementType="Text" FriendlyName="'Log Out'" FullSelectorArgument="&lt;webctrl aaname='Log Out' parentid='wrapper' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Log Out' parentid='wrapper' tag='A' type='' check:text='Log Out' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard - aatest123' /&gt;" SearchSteps="FuzzySelector, Image" Text="Log Out" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0MvWZHgoyD06ZgBf-_7QaOQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="32d5fa98cc8461562a6e1f1466054aba.png" xmlns="">04a3ry22mNEqTnR0xH677WA</imageRef>
+</TargetAnchorable>

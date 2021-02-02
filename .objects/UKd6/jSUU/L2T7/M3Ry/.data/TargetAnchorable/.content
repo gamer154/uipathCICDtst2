@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://aatest154.invoicely.com/dashboard" ContentHash="PdqbF8jqiEq94lVe-PjnbA" DesignTimeRectangle="8, 359, 210, 47" ElementType="Text" FriendlyName="'Dashboard'" FullSelectorArgument="&lt;webctrl aaname='                             Dashboard                         ' parentid='wrapper' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                             Dashboard                         ' parentid='wrapper' tag='A' type='' check:text='Dashboard' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard - aatest123' /&gt;" SearchSteps="Selector" Text="Dashboard" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0r850djjxsEOj6ERE5EiQBA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="eca0bde1056b5ebe5fdbf36069b8c5f6.png" xmlns="">0C1qFRGEdi0OS-hglPDj_QQ</imageRef>
+</TargetAnchorable>
